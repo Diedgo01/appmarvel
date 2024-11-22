@@ -7,37 +7,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#023e8a"
+    android:background="#e1e1e1"
     tools:context=".Activity_login">
 
     <ImageView
         android:layout_width="400dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="38dp"
         android:src="@drawable/avengers" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="55dp"
         android:layout_marginBottom="45dp"
         android:text="Iniciar Sesión"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="40sp" />
     <EditText
         android:id="@+id/name"
-        android:layout_width="400dp"
+        android:layout_width="390dp"
         android:layout_height="50dp"
+        android:layout_marginTop="-30dp"
         android:hint="   Nombre"
         android:layout_gravity="center"
         android:background="@drawable/edittext_background"
         android:inputType="textPersonName"/>
     <EditText
         android:id="@+id/password"
-        android:layout_width="400dp"
+        android:layout_width="390dp"
         android:layout_height="50dp"
         android:hint="  Contraseña"
         android:layout_gravity="center"
@@ -52,7 +52,7 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:background="@drawable/btn_blue"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:padding="16dp"/>
 
 </LinearLayout>

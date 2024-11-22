@@ -3,7 +3,16 @@
     <style name="Base.Theme.Appmarvel" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
     </style>
+    <color name="primaryColor">#2B4C7E</color>         <!-- Azul marino medio -->
+    <color name="primaryDarkColor">#1A365D</color>     <!-- Azul marino oscuro -->
+    <color name="primaryLightColor">#567CAE</color>    <!-- Azul marino claro -->
+    <color name="accentColor">#4F97A3</color>         <!-- Azul verdoso -->
+    <color name="secondaryColor">#7C98B3</color>      <!-- Gris azulado -->
+    <color name="textPrimary">#202A44</color>         <!-- Azul muy oscuro para texto -->
+    <color name="textSecondary">#516B8C</color>       <!-- Azul grisáceo para texto secundario -->
+    <color name="background">#F5F7FA</color>
 
     <style name="Theme.Appmarvel" parent="Base.Theme.Appmarvel" />
 </resources>
