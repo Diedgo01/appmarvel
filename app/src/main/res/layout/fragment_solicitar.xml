@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".fragment_solicitar">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Solicita tu Comic!"
+        android:layout_gravity="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryColor"
+        android:layout_marginBottom="8dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_soli" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explora nuestra colección"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/textSecondary"
+        android:layout_marginBottom="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:strokeColor="@color/primaryLightColor"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selecciona un comic:"
+                android:textSize="16sp"
+                android:textColor="@color/textPrimary"
+                android:layout_marginBottom="12dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerComics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/m_rcv2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:padding="8dp" />
+    <Button
+        android:id="@+id/btnSolicitar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Solicitar Comic"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        app:cornerRadius="8dp"
+        android:backgroundTint="@color/primaryColor"
+        app:elevation="4dp"/>
+
+
+</LinearLayout>
