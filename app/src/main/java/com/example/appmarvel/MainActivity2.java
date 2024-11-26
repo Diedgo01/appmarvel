@@ -33,13 +33,13 @@ public class MainActivity2 extends AppCompatActivity {
         btnv_navegation.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                if (item.getItemId() == R.id.nav_inicio){
+                if (item.getItemId() == R.id.inicioFragment){
                     cargarFragment(Inicio_fragment);
                     return true;
-                } else if (item.getItemId() == R.id.nav_solicitar) {
+                } else if (item.getItemId() == R.id.fragment_solicitar) {
                     cargarFragment(fragment_configuracion);
                     return true;
-                }else if (item.getItemId() == R.id.nav_confi) {
+                }else if (item.getItemId() == R.id.fragment_configuracion) {
                     cargarFragment(solicitarFragment);
                     return true;
                 }
