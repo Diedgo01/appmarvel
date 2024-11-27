@@ -17,6 +17,7 @@
         android:textStyle="bold"
         android:textColor="@color/primaryColor"
         android:layout_marginBottom="8dp"/>
+
     <ImageView
         android:layout_width="50dp"
         android:layout_height="80dp"
@@ -32,6 +33,15 @@
         android:layout_marginLeft="10dp"
         android:textColor="@color/textSecondary"
         android:layout_marginBottom="24dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encuentra tu cómic favorito y solicítalo fácilmente. Explora nuestra amplia colección y elige el comic que más te gusta para solicitar."
+        android:textSize="14sp"
+        android:layout_marginHorizontal="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/textSecondary"
+        android:layout_marginBottom="16dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,13 +74,7 @@
         </LinearLayout>
 
     </LinearLayout>
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/m_rcv2"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:clipToPadding="false"
-        android:padding="8dp" />
+
     <Button
         android:id="@+id/btnSolicitar"
         android:layout_width="match_parent"
@@ -80,7 +84,8 @@
         android:textAllCaps="false"
         app:cornerRadius="8dp"
         android:backgroundTint="@color/primaryColor"
-        app:elevation="4dp"/>
-
+        app:elevation="4dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"/>
 
 </LinearLayout>
